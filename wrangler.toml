@@ -1,3 +1,12 @@
+# wrangler.toml
+name = "recruva"
+account_id = "5545ebd77a63536d42dc28c175a10af8"
+
+# Your existing KV namespace configuration
 kv_namespaces = [
-  { id = "MY_KV", binding="MY_KV" }
+  { binding = "MY_KV", id = "1d5091fe59424c7a87f8468a03bfaa50"}
 ]
+
+# Additional recommended configurations
+compatibility_date = "2025-01-01"
+workers_dev = true
